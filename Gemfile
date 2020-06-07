@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in musical
+# Specify your gem's dependencies in musical.gemspec
+gemspec
