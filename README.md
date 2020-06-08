@@ -1,1 +1,1 @@
-# musical [![Build Sta
+# musical [![Build Status](https://travis-ci.org
