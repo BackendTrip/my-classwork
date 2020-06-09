@@ -1,1 +1,1 @@
-# musical [![Build Status](https://travis-ci.org
+# musical [![Build Status](https://travis-ci.org/katsuma/musical.png?branch=m
