@@ -2,4 +2,4 @@
 
 `musical` is a simple tool for your favorite music DVD.
 
-You can rip vob files by each D
+You can rip vob files by each DVD chapter, convert them to w
