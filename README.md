@@ -6,3 +6,5 @@ You can rip vob files by each DVD chapter, convert them to wav file and add them
 
 
 ## Install
+
+`musical` depends on `dvd
