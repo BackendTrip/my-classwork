@@ -12,3 +12,7 @@ To install them try this for example.
 
 ```sh
 brew install dvdbackup
+brew install ffmpeg
+```
+
+A
