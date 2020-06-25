@@ -8,4 +8,7 @@ You can rip vob files by each DVD chapter, convert them to wav file and add them
 ## Install
 
 `musical` depends on `dvdbackup` and `ffmpeg`.
-To install them try this for exampl
+To install them try this for example.
+
+```sh
+brew install dvdbackup
