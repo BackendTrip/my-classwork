@@ -15,4 +15,7 @@ brew install dvdbackup
 brew install ffmpeg
 ```
 
-A
+And install gem.
+
+```sh
+ge
