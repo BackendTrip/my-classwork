@@ -18,4 +18,8 @@ brew install ffmpeg
 And install gem.
 
 ```sh
-ge
+gem install musical
+```
+
+
+## Usa
