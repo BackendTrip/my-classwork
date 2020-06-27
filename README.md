@@ -22,4 +22,5 @@ gem install musical
 ```
 
 
-## Usa
+## Usage
+Set your DVD and typ
