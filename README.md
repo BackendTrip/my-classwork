@@ -31,4 +31,4 @@ musical <options>
 
 Options:
 ```sh
-  
+                  --inf
