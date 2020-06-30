@@ -26,4 +26,9 @@ gem install musical
 Set your DVD and type
 
 ```sh
-musical <optio
+musical <options>
+```
+
+Options:
+```sh
+  
