@@ -31,4 +31,5 @@ musical <options>
 
 Options:
 ```sh
-                  --inf
+                  --info, -i:   Show your DVD data
+  
