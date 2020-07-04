@@ -32,4 +32,4 @@ musical <options>
 Options:
 ```sh
                   --info, -i:   Show your DVD data
-  --ignore-convert-sound
+  --ignore-convert-sound, -g:   Rip data onl
