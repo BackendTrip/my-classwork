@@ -33,4 +33,4 @@ Options:
 ```sh
                   --info, -i:   Show your DVD data
   --ignore-convert-sound, -g:   Rip data only, NOT convert them to wav file
-   
+     --ignore-use-itunes
