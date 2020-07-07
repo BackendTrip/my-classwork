@@ -34,4 +34,5 @@ Options:
                   --info, -i:   Show your DVD data
   --ignore-convert-sound, -g:   Rip data only, NOT convert them to wav file
      --ignore-use-itunes, -n:   NOT add ripped files to iTunes and encode them
-              --path, -p <s>:  
+              --path, -p <s>:   Set device path of DVD
+    
