@@ -36,4 +36,4 @@ Options:
      --ignore-use-itunes, -n:   NOT add ripped files to iTunes and encode them
               --path, -p <s>:   Set device path of DVD
              --title, -t <s>:   Set DVD title (default: LIVE)
-            --artis
+            --artist, -a <s>:   Set DVD artis
