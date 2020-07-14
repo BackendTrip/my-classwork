@@ -37,4 +37,5 @@ Options:
               --path, -p <s>:   Set device path of DVD
              --title, -t <s>:   Set DVD title (default: LIVE)
             --artist, -a <s>:   Set DVD artist (default: Artist)
-              --year, -y <i>:   Set year DVD was recorded (
+              --year, -y <i>:   Set year DVD was recorded (default: 2013)
+       
