@@ -38,4 +38,5 @@ Options:
              --title, -t <s>:   Set DVD title (default: LIVE)
             --artist, -a <s>:   Set DVD artist (default: Artist)
               --year, -y <i>:   Set year DVD was recorded (default: 2013)
-            --output, -o <s>:   Set location of ripped data (default:
+            --output, -o <s>:   Set location of ripped data (default: ripped)
+               --
