@@ -40,4 +40,4 @@ Options:
               --year, -y <i>:   Set year DVD was recorded (default: 2013)
             --output, -o <s>:   Set location of ripped data (default: ripped)
                --version, -v:   Print version and exit
-                  --he
+                  --help, -h:   Show this m
