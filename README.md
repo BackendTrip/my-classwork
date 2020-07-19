@@ -40,4 +40,7 @@ Options:
               --year, -y <i>:   Set year DVD was recorded (default: 2013)
             --output, -o <s>:   Set location of ripped data (default: ripped)
                --version, -v:   Print version and exit
-                  --help, -h:   Show this m
+                  --help, -h:   Show this message
+```
+
+When you use iTu
