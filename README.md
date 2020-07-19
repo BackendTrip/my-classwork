@@ -43,4 +43,4 @@ Options:
                   --help, -h:   Show this message
 ```
 
-When you use iTu
+When you use iTunes, you should use `--tit
