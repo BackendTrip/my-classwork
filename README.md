@@ -43,4 +43,6 @@ Options:
                   --help, -h:   Show this message
 ```
 
-When you use iTunes, you should use `--title`, `--artist` and `--
+When you use iTunes, you should use `--title`, `--artist` and `--year` options.
+
+They will
