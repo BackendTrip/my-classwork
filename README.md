@@ -45,4 +45,4 @@ Options:
 
 When you use iTunes, you should use `--title`, `--artist` and `--year` options.
 
-They will
+They will help you to manage your music l
