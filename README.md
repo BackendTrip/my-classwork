@@ -49,4 +49,6 @@ They will help you to manage your music library easily.
 
 
 ## Supported OS
-- OSX El 
+- OSX El Capitan
+- OSX Yosemite
+- OSX
