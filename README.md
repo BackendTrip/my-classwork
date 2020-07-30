@@ -54,4 +54,10 @@ They will help you to manage your music library easily.
 - OSX Mavericks
 
 
-## Supported
+## Supported Ruby
+- 2.2
+- 2.1
+- 2.0
+
+
+## L
