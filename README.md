@@ -60,4 +60,5 @@ They will help you to manage your music library easily.
 - 2.0
 
 
-## L
+## License
+`musical` is r
