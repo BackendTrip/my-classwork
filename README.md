@@ -61,4 +61,4 @@ They will help you to manage your music library easily.
 
 
 ## License
-`musical` is r
+`musical` is released under the MIT License.
