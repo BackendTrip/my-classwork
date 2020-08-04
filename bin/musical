@@ -3,4 +3,6 @@
 require 'musical'
 include Musical
 
-M
+Musical.setup
+
+dvd_optio
