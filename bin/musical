@@ -6,4 +6,5 @@ include Musical
 Musical.setup
 
 dvd_options = {
-  title: Musical.c
+  title: Musical.configuration.title,
+  artist: Musica
