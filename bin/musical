@@ -7,4 +7,5 @@ Musical.setup
 
 dvd_options = {
   title: Musical.configuration.title,
-  artist: Musica
+  artist: Musical.configuration.artist,
+  yea
