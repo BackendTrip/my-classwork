@@ -9,4 +9,6 @@ dvd_options = {
   title: Musical.configuration.title,
   artist: Musical.configuration.artist,
   year: Musical.configuration.year,
-  path: Musica
+  path: Musical.configuration.path
+}
+p
