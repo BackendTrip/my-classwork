@@ -8,4 +8,5 @@ Musical.setup
 dvd_options = {
   title: Musical.configuration.title,
   artist: Musical.configuration.artist,
-  year: Musical.configuration.yea
+  year: Musical.configuration.year,
+  path: Musica
