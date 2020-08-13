@@ -11,4 +11,4 @@ dvd_options = {
   year: Musical.configuration.year,
   path: Musical.configuration.path
 }
-progress_format = Musical.configurat
+progress_format = Musical.configuration.progress_forma
