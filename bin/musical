@@ -16,4 +16,4 @@ progress_format = Musical.configuration.progress_format
 DVD.load(dvd_options) do |dvd|
   next puts dvd.info if Musical.configuration.info
 
- 
+  chapter_size = dvd.title_s
