@@ -17,4 +17,4 @@ DVD.load(dvd_options) do |dvd|
   next puts dvd.info if Musical.configuration.info
 
   chapter_size = dvd.title_sets.inject(0){ |size, set| size + set[:chapter] }
-  ri
+  ripping_progress_bar = No
