@@ -19,4 +19,4 @@ DVD.load(dvd_options) do |dvd|
   chapter_size = dvd.title_sets.inject(0){ |size, set| size + set[:chapter] }
   ripping_progress_bar = Notification::ProgressBar.create(title: 'Ripping', total: chapter_size)
 
-  chapters = 
+  chapters = dvd.rip { ripping_progres
