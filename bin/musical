@@ -21,4 +21,4 @@ DVD.load(dvd_options) do |dvd|
 
   chapters = dvd.rip { ripping_progress_bar.increment }
 
-  next
+  next if Musical.configuration.
