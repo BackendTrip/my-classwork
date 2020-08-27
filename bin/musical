@@ -23,4 +23,5 @@ DVD.load(dvd_options) do |dvd|
 
   next if Musical.configuration.ignore_convert_sound
 
-  unless Musical.configuration.ignor
+  unless Musical.configuration.ignore_use_itunes
+    converting_pr
