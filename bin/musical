@@ -23,4 +23,4 @@ DVD.load(dvd_options) do |dvd|
 
   next if Musical.configuration.ignore_convert_sound
 
-  unl
+  unless Musical.configuration.ignor
