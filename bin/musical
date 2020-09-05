@@ -28,4 +28,6 @@ DVD.load(dvd_options) do |dvd|
   end
 
   chapters.each do |chapter|
-    wav = cha
+    wav = chapter.to_wav
+
+    next if Musica
