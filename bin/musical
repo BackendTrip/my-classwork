@@ -30,4 +30,4 @@ DVD.load(dvd_options) do |dvd|
   chapters.each do |chapter|
     wav = chapter.to_wav
 
-    next if Musica
+    next if Musical.configuration.ignore_use_i
