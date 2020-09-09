@@ -33,4 +33,4 @@ DVD.load(dvd_options) do |dvd|
     next if Musical.configuration.ignore_use_itunes
 
     begin
-      t
+      track = Itunes::Player.add(w
