@@ -35,4 +35,5 @@ DVD.load(dvd_options) do |dvd|
     begin
       track = Itunes::Player.add(wav.expand_path)
 
-      conve
+      converted_track = track.convert
+      co
