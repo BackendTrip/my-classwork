@@ -36,4 +36,5 @@ DVD.load(dvd_options) do |dvd|
       track = Itunes::Player.add(wav.expand_path)
 
       converted_track = track.convert
-      converted_track.update_attribute
+      converted_track.update_attributes(
+        name: chapter.n
