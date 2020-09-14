@@ -39,4 +39,5 @@ DVD.load(dvd_options) do |dvd|
       converted_track.update_attributes(
         name: chapter.name,
         album: dvd.title,
-        a
+        artist: dvd.artist,
+    
