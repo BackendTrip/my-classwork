@@ -40,4 +40,5 @@ DVD.load(dvd_options) do |dvd|
         name: chapter.name,
         album: dvd.title,
         artist: dvd.artist,
+        year: dvd.year,
     
