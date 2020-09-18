@@ -43,4 +43,5 @@ DVD.load(dvd_options) do |dvd|
         year: dvd.year,
         track_count: chapters.size,
         track_number: chapter.chapter_number,
-     
+      )
+    rescue Itunes::Player::Fil
