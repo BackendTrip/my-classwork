@@ -42,4 +42,5 @@ DVD.load(dvd_options) do |dvd|
         artist: dvd.artist,
         year: dvd.year,
         track_count: chapters.size,
-        track_numbe
+        track_number: chapter.chapter_number,
+     
