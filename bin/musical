@@ -44,4 +44,5 @@ DVD.load(dvd_options) do |dvd|
         track_count: chapters.size,
         track_number: chapter.chapter_number,
       )
-    rescue Itunes::Player::FileNotFoundError, Itunes::Player::Empt
+    rescue Itunes::Player::FileNotFoundError, Itunes::Player::EmptyFileError
+      # We can 
