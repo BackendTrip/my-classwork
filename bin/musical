@@ -47,4 +47,5 @@ DVD.load(dvd_options) do |dvd|
     rescue Itunes::Player::FileNotFoundError, Itunes::Player::EmptyFileError
       # We can ignore these errors.
     ensure
- 
+      wav.delete!   if wav
+     
