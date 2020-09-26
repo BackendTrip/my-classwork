@@ -48,4 +48,6 @@ DVD.load(dvd_options) do |dvd|
       # We can ignore these errors.
     ensure
       wav.delete!   if wav
-      track.delete! if trac
+      track.delete! if track
+
+      converting_
