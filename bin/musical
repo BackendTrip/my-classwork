@@ -50,4 +50,5 @@ DVD.load(dvd_options) do |dvd|
       wav.delete!   if wav
       track.delete! if track
 
-      converting_
+      converting_progress_bar.increment
+   
