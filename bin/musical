@@ -51,4 +51,8 @@ DVD.load(dvd_options) do |dvd|
       track.delete! if track
 
       converting_progress_bar.increment
-   
+    end
+  end
+end
+
+if !M
