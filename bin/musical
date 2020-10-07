@@ -55,4 +55,4 @@ DVD.load(dvd_options) do |dvd|
   end
 end
 
-if !M
+if !Musical.configuration.i
