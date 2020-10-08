@@ -55,4 +55,5 @@ DVD.load(dvd_options) do |dvd|
   end
 end
 
-if !Musical.configuration.i
+if !Musical.configuration.ignore_convert_sound &&
+    !Musical.con
