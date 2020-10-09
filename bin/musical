@@ -56,4 +56,5 @@ DVD.load(dvd_options) do |dvd|
 end
 
 if !Musical.configuration.ignore_convert_sound &&
-    !Musical.configuration.ignore_u
+    !Musical.configuration.ignore_use_itunes
+  FileUtils.rm_f(Mu
