@@ -57,4 +57,5 @@ end
 
 if !Musical.configuration.ignore_convert_sound &&
     !Musical.configuration.ignore_use_itunes
-  FileUtils.rm_f(Musical.configuration.outp
+  FileUtils.rm_f(Musical.configuration.output)
+end
