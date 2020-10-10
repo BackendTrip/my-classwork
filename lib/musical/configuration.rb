@@ -14,3 +14,6 @@ module Musical
 
     def self.config
       @@config
+    end
+  end
+end
