@@ -1,2 +1,4 @@
 # coding: utf-8
-module Mu
+module Musical
+  class DVD::Chapter
+  
