@@ -5,4 +5,5 @@ module Musical
 
     attr_accessor :vob_path, :name, :chapter_number
 
- 
+    DEFAULT_CHAPTER_NUMBER = 1
+    D
