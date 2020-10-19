@@ -7,4 +7,4 @@ module Musical
 
     DEFAULT_CHAPTER_NUMBER = 1
     DEFAULT_CHAPTER_NAME = 'default chapter name'
-  
+    DEFAULT_TITLE_NUMBER = 1
