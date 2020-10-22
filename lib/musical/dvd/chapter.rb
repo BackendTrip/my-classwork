@@ -9,4 +9,5 @@ module Musical
     DEFAULT_CHAPTER_NAME = 'default chapter name'
     DEFAULT_TITLE_NUMBER = 1
 
-    def initiali
+    def initialize(vob_path, options = {})
+    
