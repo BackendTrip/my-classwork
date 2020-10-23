@@ -10,4 +10,6 @@ module Musical
     DEFAULT_TITLE_NUMBER = 1
 
     def initialize(vob_path, options = {})
-      raise ArgumentError.new 'VOB path is not g
+      raise ArgumentError.new 'VOB path is not given' if vob_path.nil?
+
+      
