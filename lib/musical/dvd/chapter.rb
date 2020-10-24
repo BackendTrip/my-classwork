@@ -12,4 +12,4 @@ module Musical
     def initialize(vob_path, options = {})
       raise ArgumentError.new 'VOB path is not given' if vob_path.nil?
 
-      
+      @vob_path = vob_path
