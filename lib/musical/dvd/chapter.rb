@@ -13,3 +13,4 @@ module Musical
       raise ArgumentError.new 'VOB path is not given' if vob_path.nil?
 
       @vob_path = vob_path
+      @name = options[:name]
