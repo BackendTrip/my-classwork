@@ -17,3 +17,5 @@ module Musical
       @chapter_number = options[:chapter_number] || DEFAULT_CHAPTER_NUMBER
       @title_number = options[:title_number] || DEFAULT_TITLE_NUMBER
     end
+
+    def to_wav(wav_
