@@ -18,4 +18,4 @@ module Musical
       @title_number = options[:title_number] || DEFAULT_TITLE_NUMBER
     end
 
-    def to_wav(wav_path = "#{Musical.configuration.output}/chapter_#{@tit
+    def to_wav(wav_path = "#{Musical.configuration.output}/chapter_#{@title_number}_#{@chapter_number}.wav
