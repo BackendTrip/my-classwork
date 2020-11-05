@@ -21,4 +21,4 @@ module Musical
     def to_wav(wav_path = "#{Musical.configuration.output}/chapter_#{@title_number}_#{@chapter_number}.wav")
       return @wav if @wav
 
- 
+      command = "ffmpeg -
