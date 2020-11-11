@@ -23,4 +23,7 @@ module Musical
 
       command = "ffmpeg -i #{@vob_path} -ac 2 #{wav_path}"
       execute_command(command, true)
-      DVD::Wav.new(wav_
+      DVD::Wav.new(wav_path)
+    end
+  end
+end
