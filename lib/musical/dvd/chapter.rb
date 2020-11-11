@@ -22,4 +22,5 @@ module Musical
       return @wav if @wav
 
       command = "ffmpeg -i #{@vob_path} -ac 2 #{wav_path}"
-      execute_command(comm
+      execute_command(command, true)
+      DVD::Wav.new(wav_
