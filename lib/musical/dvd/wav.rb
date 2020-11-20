@@ -1,4 +1,5 @@
 # coding: utf-8
 module Musical
   class DVD::Wav < File
-    def expand_
+    def expand_path
+      File.expand_path(s
