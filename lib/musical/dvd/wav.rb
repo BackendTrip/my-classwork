@@ -2,4 +2,7 @@
 module Musical
   class DVD::Wav < File
     def expand_path
-      File.expand_path(s
+      File.expand_path(self.path)
+    end
+
+    def
