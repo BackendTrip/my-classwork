@@ -6,4 +6,4 @@ module Musical
     end
 
     def delete!
-      FileUtils.rm_f
+      FileUtils.rm_f(self.expand_path
