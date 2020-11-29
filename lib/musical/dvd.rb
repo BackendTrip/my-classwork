@@ -29,3 +29,35 @@ module Musical
 
     def self.path=(path)
       @@path = path
+    end
+
+    def self.path
+      @@path
+    end
+
+    def self.load(options = {})
+      if @@path.nil? || options[:forcibly]
+        @@path = options[:path] || self.detect
+      end
+
+      dvd = DVD.instance
+      dvd.title  = options[:title]  || Musical.configuration.title
+      dvd.artist = options[:artist] || Musical.configuration.artist
+      dvd.year   = options[:year]   || Musical.configuration.year
+
+      if block_given?
+        yield(dvd)
+      end
+
+      dvd.info
+    end
+
+    def info
+      raise RuntimeError.new DETECT_ERROR_MESSAGE unless @@path
+
+      return @info if @info
+
+      @info = execute_command("dvdbackup --info --input='#{@@path}'", true)
+      raise RuntimeError.new DETECT_ERROR_MESSAGE if @info.empty?
+      @info
+    end
