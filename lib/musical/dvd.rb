@@ -61,3 +61,37 @@ module Musical
       raise RuntimeError.new DETECT_ERROR_MESSAGE if @info.empty?
       @info
     end
+
+    def title_sets
+      return @title_sets if @title_sets
+
+      @title_sets = [].tap do |sets|
+        sets_regexp = /\s*Title (\d) has (\d*) chapter/
+        info.split("\n").each do |line|
+          if line =~ sets_regexp
+            sets << { title: $1.to_i, chapter: $2.to_i }
+          end
+        end
+      end
+    end
+
+    def vob_path
+      find_command = "find '#{Musical.configuration.working_dir}' -name '*.VOB'"
+      execute_command(find_command).split("\n").first
+    end
+    private :vob_path
+
+    def rip
+      raise RuntimeError.new DETECT_ERROR_MESSAGE unless @@path
+      save_dir = Musical.configuration.output
+      FileUtils.mkdir_p save_dir
+
+      chapters = []
+
+      title_sets.each do |title_set|
+        chapters << (1..title_set[:chapter]).map do |chapter_index|
+          commands = []
+          commands << 'dvdbackup'
+          commands << "--input='#{@@path}'"
+          commands << "--title='#{title_set[:title]}'"
+          commands << "--start=#{chapter_index}"
