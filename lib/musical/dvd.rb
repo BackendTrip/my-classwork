@@ -95,3 +95,19 @@ module Musical
           commands << "--input='#{@@path}'"
           commands << "--title='#{title_set[:title]}'"
           commands << "--start=#{chapter_index}"
+          commands << "--end=#{chapter_index}"
+          commands << "--output='#{Musical.configuration.working_dir}'"
+          execute_command(commands.join(' '), true)
+
+          vob_save_path = "#{save_dir}/TITLE_#{title_set[:title]}_#{chapter_index}.VOB"
+          FileUtils.mv(vob_path, vob_save_path)
+
+          yield if block_given?
+
+          Chapter.new(vob_save_path, title_number: title_set[:title], chapter_number: chapter_index)
+        end
+      end
+      chapters.flatten
+    end
+  end
+end
