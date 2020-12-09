@@ -13,3 +13,20 @@ module Musical
           messages << ""
           messages << "   brew install #{app}"
           messages << ""
+          raise RuntimeError, messages.join("\n")
+        end
+      end
+      true
+    end
+
+    def installed?(app)
+      !execute_command("which #{app}").empty?
+    end
+
+    def execute_command(cmd, silent = false)
+      cmd << ' 2>/dev/null' if silent
+      execute_out, _ = *Open3.capture2(cmd)
+      execute_out
+    end
+  end
+end
