@@ -1,2 +1,3 @@
 require 'trollop'
-re
+require 'ruby-progressbar'
+require 'fileutils
