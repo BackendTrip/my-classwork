@@ -1,3 +1,4 @@
 # coding: utf-8
 module Musical
-  VERSIO
+  VERSION = "1.0.7"
+end
