@@ -5,4 +5,5 @@ require 'open3'
 require 'ostruct'
 require 'itunes-client'
 
-require 'musical/configurati
+require 'musical/configuration'
+require 'musical/util
