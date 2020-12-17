@@ -6,4 +6,5 @@ require 'ostruct'
 require 'itunes-client'
 
 require 'musical/configuration'
-require 'musical/util
+require 'musical/util'
+require 'musical/ve
