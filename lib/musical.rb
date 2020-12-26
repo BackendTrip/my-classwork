@@ -10,4 +10,5 @@ require 'musical/util'
 require 'musical/version'
 require 'musical/dvd'
 require 'musical/dvd/chapter'
-require 'musical/dvd/w
+require 'musical/dvd/wav'
+require 'musical/notific
