@@ -13,4 +13,5 @@ require 'musical/dvd/chapter'
 require 'musical/dvd/wav'
 require 'musical/notification/progress_bar'
 
-mod
+module Musical
+  extend Musical:
