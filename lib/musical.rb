@@ -11,4 +11,6 @@ require 'musical/version'
 require 'musical/dvd'
 require 'musical/dvd/chapter'
 require 'musical/dvd/wav'
-require 'musical/notific
+require 'musical/notification/progress_bar'
+
+mod
