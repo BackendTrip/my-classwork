@@ -17,3 +17,4 @@ module Musical
   extend Musical::Util
 
   def configuration
+    Configurat
