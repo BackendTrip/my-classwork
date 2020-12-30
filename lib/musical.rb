@@ -14,4 +14,6 @@ require 'musical/dvd/wav'
 require 'musical/notification/progress_bar'
 
 module Musical
-  extend Musical:
+  extend Musical::Util
+
+  def configuration
