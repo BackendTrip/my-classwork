@@ -21,4 +21,5 @@ module Musical
   end
   module_function :configuration
 
-  def s
+  def setup
+    return unless ch
