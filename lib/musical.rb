@@ -19,4 +19,6 @@ module Musical
   def configuration
     Configuration.config || Musical.setup
   end
-  module_funct
+  module_function :configuration
+
+  def s
