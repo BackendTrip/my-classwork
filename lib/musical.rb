@@ -22,4 +22,6 @@ module Musical
   module_function :configuration
 
   def setup
-    return unless ch
+    return unless check_env
+
+    # init working
