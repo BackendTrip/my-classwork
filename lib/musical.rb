@@ -25,4 +25,4 @@ module Musical
     return unless check_env
 
     # init working directory
-    working_dir = Fi
+    working_dir = File.join(File.expand_path
