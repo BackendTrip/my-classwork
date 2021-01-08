@@ -24,4 +24,5 @@ module Musical
   def setup
     return unless check_env
 
-    # init working
+    # init working directory
+    working_dir = Fi
