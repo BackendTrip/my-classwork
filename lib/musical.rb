@@ -25,4 +25,5 @@ module Musical
     return unless check_env
 
     # init working directory
-    working_dir = File.join(File.expand_path
+    working_dir = File.join(File.expand_path('~'), '.musical')
+    FileUtils.mkdir
