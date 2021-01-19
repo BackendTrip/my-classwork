@@ -28,4 +28,5 @@ module Musical
     working_dir = File.join(File.expand_path('~'), '.musical')
     FileUtils.mkdir_p(working_dir) unless File.exist?(working_dir)
 
-    # par
+    # parse options
+    options = Trollop
