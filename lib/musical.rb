@@ -29,4 +29,5 @@ module Musical
     FileUtils.mkdir_p(working_dir) unless File.exist?(working_dir)
 
     # parse options
-    options = Trollop
+    options = Trollop::options do
+      version
