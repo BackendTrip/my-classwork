@@ -30,4 +30,5 @@ module Musical
 
     # parse options
     options = Trollop::options do
-      version "musical #{Musical::VERSI
+      version "musical #{Musical::VERSION}"
+      opt :info, "Show yo
