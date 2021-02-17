@@ -31,4 +31,5 @@ module Musical
     # parse options
     options = Trollop::options do
       version "musical #{Musical::VERSION}"
-      opt :info, "Show your DVD data", type: :
+      opt :info, "Show your DVD data", type: :boolean
+      opt :igno
