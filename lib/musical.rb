@@ -32,4 +32,4 @@ module Musical
     options = Trollop::options do
       version "musical #{Musical::VERSION}"
       opt :info, "Show your DVD data", type: :boolean
-      opt :ignore_convert_sound, "Rip data only, NOT convert them to 
+      opt :ignore_convert_sound, "Rip data only, NOT convert them to wav file", type: :boolean
