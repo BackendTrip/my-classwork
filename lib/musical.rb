@@ -33,3 +33,4 @@ module Musical
       version "musical #{Musical::VERSION}"
       opt :info, "Show your DVD data", type: :boolean
       opt :ignore_convert_sound, "Rip data only, NOT convert them to wav file", type: :boolean
+      opt :ignore_use_it
