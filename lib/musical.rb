@@ -35,4 +35,5 @@ module Musical
       opt :ignore_convert_sound, "Rip data only, NOT convert them to wav file", type: :boolean
       opt :ignore_use_itunes, "NOT add ripped files to iTunes and encode them", type: :boolean
       opt :path, "Set device path of DVD", type: :string
-      opt :title, "Set DVD title", type: :string, d
+      opt :title, "Set DVD title", type: :string, default: 'LIVE'
+      opt 
