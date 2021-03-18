@@ -34,4 +34,5 @@ module Musical
       opt :info, "Show your DVD data", type: :boolean
       opt :ignore_convert_sound, "Rip data only, NOT convert them to wav file", type: :boolean
       opt :ignore_use_itunes, "NOT add ripped files to iTunes and encode them", type: :boolean
-      opt :path, "Set device path of DVD", t
+      opt :path, "Set device path of DVD", type: :string
+      opt :title, 
