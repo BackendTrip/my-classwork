@@ -36,4 +36,5 @@ module Musical
       opt :ignore_use_itunes, "NOT add ripped files to iTunes and encode them", type: :boolean
       opt :path, "Set device path of DVD", type: :string
       opt :title, "Set DVD title", type: :string, default: 'LIVE'
-      opt :artist, "Set DVD artist", type: :string, default: 'Ar
+      opt :artist, "Set DVD artist", type: :string, default: 'Artist'
+      opt :year,
