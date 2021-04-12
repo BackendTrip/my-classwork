@@ -37,4 +37,4 @@ module Musical
       opt :path, "Set device path of DVD", type: :string
       opt :title, "Set DVD title", type: :string, default: 'LIVE'
       opt :artist, "Set DVD artist", type: :string, default: 'Artist'
-      opt :year, "Set year DVD was recorded", t
+      opt :year, "Set year DVD was recorded", type: :int, default: Time.
