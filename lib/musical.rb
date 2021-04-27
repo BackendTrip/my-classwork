@@ -38,4 +38,4 @@ module Musical
       opt :title, "Set DVD title", type: :string, default: 'LIVE'
       opt :artist, "Set DVD artist", type: :string, default: 'Artist'
       opt :year, "Set year DVD was recorded", type: :int, default: Time.now.year
-      opt :output, "Set location of ripp
+      opt :output, "Set location of ripped data", type: :string, de
