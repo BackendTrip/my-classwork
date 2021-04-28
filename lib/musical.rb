@@ -41,4 +41,4 @@ module Musical
       opt :output, "Set location of ripped data", type: :string, default: 'ripped'
     end
 
- 
+    configuration = Configurat
