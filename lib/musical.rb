@@ -46,4 +46,5 @@ module Musical
 
     configuration
   end
-  module_fu
+  module_function :setup
+end
