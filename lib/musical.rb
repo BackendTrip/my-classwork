@@ -41,4 +41,5 @@ module Musical
       opt :output, "Set location of ripped data", type: :string, default: 'ripped'
     end
 
-    configuration = Configuration.build(options.merge(working_
+    configuration = Configuration.build(options.merge(working_dir: working_dir))
+ 
