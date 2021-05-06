@@ -44,4 +44,6 @@ module Musical
     configuration = Configuration.build(options.merge(working_dir: working_dir))
     yield(configuration) if block_given?
 
-    c
+    configuration
+  end
+  module_fu
