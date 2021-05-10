@@ -4,4 +4,5 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'musical/version'
 
 Gem::Specification.new do |spec|
-  spec.name    
+  spec.name          = "musical"
+  
