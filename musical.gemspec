@@ -5,4 +5,5 @@ require 'musical/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "musical"
-  spec.version       = Musical::
+  spec.version       = Musical::VERSION
+  spec.authors       = ["
