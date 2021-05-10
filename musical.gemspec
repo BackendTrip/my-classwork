@@ -6,4 +6,5 @@ require 'musical/version'
 Gem::Specification.new do |spec|
   spec.name          = "musical"
   spec.version       = Musical::VERSION
-  spec.authors       = ["
+  spec.authors       = ["ryo katsuma"]
+  spec.email     
