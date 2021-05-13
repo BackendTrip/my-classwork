@@ -7,4 +7,5 @@ Gem::Specification.new do |spec|
   spec.name          = "musical"
   spec.version       = Musical::VERSION
   spec.authors       = ["ryo katsuma"]
-  spec.email         = ["katsuma@gmail.com"
+  spec.email         = ["katsuma@gmail.com"]
+  spec.description   = %q
