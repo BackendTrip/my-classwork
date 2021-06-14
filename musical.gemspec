@@ -9,4 +9,4 @@ Gem::Specification.new do |spec|
   spec.authors       = ["ryo katsuma"]
   spec.email         = ["katsuma@gmail.com"]
   spec.description   = %q{musical is a simple tool for your favorite DVD. You can rip vob file by DVD chapter, convert it to wav file and add it to your iTunes library.}
-  spec.su
+  spec.summary       = %q{A si
