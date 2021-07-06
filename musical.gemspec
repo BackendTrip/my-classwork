@@ -13,4 +13,5 @@ Gem::Specification.new do |spec|
   spec.homepage      = "http://github.com/katsuma/musical"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files`.split
+  spec.files         = `git ls-files`.split($/)
+  spec.executabl
