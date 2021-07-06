@@ -14,4 +14,4 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
-  spec.executabl
+  spec.executables   = spec.files.grep(%r{^bin/})
