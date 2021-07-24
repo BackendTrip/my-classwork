@@ -22,4 +22,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0.0"
   spec.add_development_dependency "rb-fsevent", "~> 0.9.4"
   spec.add_development_dependency "guard", "~> 2.6.1"
-  spec.add_development_depende
+  spec.add_development_dependency "guard-rspec", "~> 4.
