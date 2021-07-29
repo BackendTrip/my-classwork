@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rb-fsevent", "~> 0.9.4"
   spec.add_development_dependency "guard", "~> 2.6.1"
   spec.add_development_dependency "guard-rspec", "~> 4.3.1"
-  spec.add_development_dependency "growl", "~> 
+  spec.add_development_dependency "growl", "~> 1.0.3"
+  spec.add_development_de
