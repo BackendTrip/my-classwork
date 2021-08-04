@@ -25,4 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "guard-rspec", "~> 4.3.1"
   spec.add_development_dependency "growl", "~> 1.0.3"
   spec.add_development_dependency "fakefs", "~> 0.5.3"
-  spec.add_development_dependency "simplecov", "~> 
+  spec.add_development_dependency "simplecov", "~> 0.9.0"
+  spec.add_development_dep
