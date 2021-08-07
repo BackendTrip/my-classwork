@@ -27,4 +27,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "fakefs", "~> 0.5.3"
   spec.add_development_dependency "simplecov", "~> 0.9.0"
   spec.add_development_dependency "coveralls", "~> 0.7.1"
-  spec.add_runtime_d
+  spec.add_runtime_dependency "ruby-progressba
