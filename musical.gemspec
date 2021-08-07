@@ -28,4 +28,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov", "~> 0.9.0"
   spec.add_development_dependency "coveralls", "~> 0.7.1"
   spec.add_runtime_dependency "ruby-progressbar", ">= 1.5.1"
-  spec.add_r
+  spec.add_runtime_dependency "trollop", "
