@@ -2,4 +2,4 @@
 require 'spec_helper'
 require 'musical'
 
-describe Mus
+describe Musical::Configuration do
