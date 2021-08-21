@@ -3,3 +3,5 @@ require 'spec_helper'
 require 'musical'
 
 describe Musical::Configuration do
+  describe '#build' do
+  
