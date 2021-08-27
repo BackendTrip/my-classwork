@@ -5,4 +5,4 @@ require 'musical'
 describe Musical::Configuration do
   describe '#build' do
     subject { described_class.build(options) }
-    let(:option
+    let(:options) { { title: 'foo', arti
