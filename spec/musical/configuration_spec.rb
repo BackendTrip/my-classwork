@@ -7,4 +7,5 @@ describe Musical::Configuration do
     subject { described_class.build(options) }
     let(:options) { { title: 'foo', artist: 'bar' } }
 
-    it 'sets hash data to config class varible as subclass of Op
+    it 'sets hash data to config class varible as subclass of OpenStruct' do
+      subje
