@@ -9,4 +9,4 @@ describe Musical::Configuration do
 
     it 'sets hash data to config class varible as subclass of OpenStruct' do
       subject
-      expect(describ
+      expect(described_class.config).to be_an
