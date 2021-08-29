@@ -8,4 +8,5 @@ describe Musical::Configuration do
     let(:options) { { title: 'foo', artist: 'bar' } }
 
     it 'sets hash data to config class varible as subclass of OpenStruct' do
-      subje
+      subject
+      expect(describ
