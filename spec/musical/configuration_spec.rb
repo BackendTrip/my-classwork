@@ -11,4 +11,4 @@ describe Musical::Configuration do
       subject
       expect(described_class.config).to be_an OpenStruct
       expect(subject.title).to eq('foo')
-     
+      expect(subject.artist).to e
