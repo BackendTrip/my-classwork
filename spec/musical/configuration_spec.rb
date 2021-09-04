@@ -14,3 +14,4 @@ describe Musical::Configuration do
       expect(subject.artist).to eq('bar')
     end
   end
+end
