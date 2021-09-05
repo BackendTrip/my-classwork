@@ -1,2 +1,5 @@
 # coding: utf-8
-require '
+require 'spec_helper'
+require 'musical'
+
+de
