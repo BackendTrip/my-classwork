@@ -2,4 +2,4 @@
 require 'spec_helper'
 require 'musical'
 
-de
+describe Musical::DVD::Wav do
