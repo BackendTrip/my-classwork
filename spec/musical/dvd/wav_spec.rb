@@ -3,3 +3,4 @@ require 'spec_helper'
 require 'musical'
 
 describe Musical::DVD::Wav do
+  describe '#delete!' 
