@@ -7,4 +7,5 @@ describe Musical::DVD::Wav do
     subject { wav.delete! }
     let!(:wav) do
       FileUtils.touch(wav_path)
-      described_class.
+      described_class.new(wav_path)
+    
