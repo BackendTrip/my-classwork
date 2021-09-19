@@ -8,4 +8,5 @@ describe Musical::DVD::Wav do
     let!(:wav) do
       FileUtils.touch(wav_path)
       described_class.new(wav_path)
-    
+    end
+    let(:wav_path)
