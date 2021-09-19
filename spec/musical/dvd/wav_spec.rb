@@ -9,4 +9,6 @@ describe Musical::DVD::Wav do
       FileUtils.touch(wav_path)
       described_class.new(wav_path)
     end
-    let(:wav_path)
+    let(:wav_path) { '/tmp/foo.wav' }
+
+ 
