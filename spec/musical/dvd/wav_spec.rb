@@ -12,4 +12,4 @@ describe Musical::DVD::Wav do
     let(:wav_path) { '/tmp/foo.wav' }
 
     it 'deletes original file', faksefs: true do
-    
+      expect { subject }.t
