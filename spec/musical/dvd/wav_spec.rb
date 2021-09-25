@@ -11,4 +11,5 @@ describe Musical::DVD::Wav do
     end
     let(:wav_path) { '/tmp/foo.wav' }
 
-    it 'deletes origina
+    it 'deletes original file', faksefs: true do
+    
