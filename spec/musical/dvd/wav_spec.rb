@@ -11,4 +11,4 @@ describe Musical::DVD::Wav do
     end
     let(:wav_path) { '/tmp/foo.wav' }
 
- 
+    it 'deletes origina
