@@ -6,4 +6,4 @@ include Musical
 
 describe DVD do
   describe '.detect' do
-    subject(
+    subject(:detect) { DVD.detect }
