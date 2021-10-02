@@ -4,4 +4,5 @@ require 'musical'
 
 include Musical
 
-desc
+describe DVD do
+  des
