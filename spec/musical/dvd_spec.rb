@@ -1,3 +1,7 @@
 # coding: utf-8
 require 'spec_helper'
-require 'mus
+require 'musical'
+
+include Musical
+
+desc
