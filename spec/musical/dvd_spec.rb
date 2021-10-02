@@ -5,4 +5,5 @@ require 'musical'
 include Musical
 
 describe DVD do
-  des
+  describe '.detect' do
+    subject(
