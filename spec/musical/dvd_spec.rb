@@ -9,4 +9,6 @@ describe DVD do
     subject(:detect) { DVD.detect }
     let(:drutil) { 'drutil status' }
 
-    context 'when DVD drive is not found
+    context 'when DVD drive is not found' do
+      before do
+       
