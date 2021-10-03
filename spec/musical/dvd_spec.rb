@@ -7,4 +7,6 @@ include Musical
 describe DVD do
   describe '.detect' do
     subject(:detect) { DVD.detect }
-    let(:drutil) { 'dru
+    let(:drutil) { 'drutil status' }
+
+    context 'when
