@@ -11,4 +11,4 @@ describe DVD do
 
     context 'when DVD drive is not found' do
       before do
-        expect(DVD).to receiv
+        expect(DVD).to receive(:execute_command).with(dr
