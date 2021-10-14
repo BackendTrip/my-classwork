@@ -15,4 +15,4 @@ describe DVD do
       end
 
       it 'raises a RuntimeError' do
-        expect { 
+        expect { detect }.to raise
