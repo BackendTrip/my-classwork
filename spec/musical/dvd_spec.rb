@@ -14,4 +14,5 @@ describe DVD do
         expect(DVD).to receive(:execute_command).with(drutil).and_return('')
       end
 
-      it 'raises a Runt
+      it 'raises a RuntimeError' do
+        expect { 
