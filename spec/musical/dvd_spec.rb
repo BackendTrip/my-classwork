@@ -15,4 +15,5 @@ describe DVD do
       end
 
       it 'raises a RuntimeError' do
-        expect { detect }.to raise
+        expect { detect }.to raise_error(RuntimeError)
+      
