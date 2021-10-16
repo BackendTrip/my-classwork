@@ -19,4 +19,5 @@ describe DVD do
       end
     end
 
-    context 'when DVD is no
+    context 'when DVD is not inserted' do
+      let(:
