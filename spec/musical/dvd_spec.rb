@@ -16,4 +16,7 @@ describe DVD do
 
       it 'raises a RuntimeError' do
         expect { detect }.to raise_error(RuntimeError)
-      
+      end
+    end
+
+    context 'when DVD is no
