@@ -20,4 +20,5 @@ describe DVD do
     end
 
     context 'when DVD is not inserted' do
-      let(:
+      let(:drutil_out) do
+        <<"E
