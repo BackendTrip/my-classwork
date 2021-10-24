@@ -23,4 +23,6 @@ describe DVD do
       let(:drutil_out) do
         <<"EOM"
 Vendor   Product           Rev
-MATSHITA DVD-R   U
+MATSHITA DVD-R   UJ-85J    FM0S
+
+Type:
