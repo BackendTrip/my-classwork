@@ -22,4 +22,5 @@ describe DVD do
     context 'when DVD is not inserted' do
       let(:drutil_out) do
         <<"EOM"
-Vendor   Product  
+Vendor   Product           Rev
+MATSHITA DVD-R   U
