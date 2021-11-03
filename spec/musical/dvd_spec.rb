@@ -25,4 +25,6 @@ describe DVD do
 Vendor   Product           Rev
 MATSHITA DVD-R   UJ-85J    FM0S
 
-Type:
+Type: No Media Inserted
+EOM
+      end
