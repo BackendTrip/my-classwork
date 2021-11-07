@@ -28,4 +28,4 @@ MATSHITA DVD-R   UJ-85J    FM0S
 Type: No Media Inserted
 EOM
       end
-      before { expect(DVD).to receive(:execute_comman
+      before { expect(DVD).to receive(:execute_command).with(drutil).and_retur
