@@ -30,4 +30,5 @@ EOM
       end
       before { expect(DVD).to receive(:execute_command).with(drutil).and_return(drutil_out) }
 
-      it 'raises a RuntimeError' d
+      it 'raises a RuntimeError' do
+        expect { detect }.
