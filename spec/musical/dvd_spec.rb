@@ -36,4 +36,6 @@ EOM
     end
 
     context 'when DVD is inserted' do
-      let(:drutil_
+      let(:drutil_out) do
+        <<"EOM"
+ Vendor   
