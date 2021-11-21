@@ -35,4 +35,4 @@ EOM
       end
     end
 
-    c
+    context 'when DVD is 
