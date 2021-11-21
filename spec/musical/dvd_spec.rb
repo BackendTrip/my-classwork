@@ -35,4 +35,5 @@ EOM
       end
     end
 
-    context 'when DVD is 
+    context 'when DVD is inserted' do
+      let(:drutil_
