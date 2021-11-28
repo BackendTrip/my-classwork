@@ -38,4 +38,5 @@ EOM
     context 'when DVD is inserted' do
       let(:drutil_out) do
         <<"EOM"
- Vendor   
+ Vendor   Product           Rev
+ MA
