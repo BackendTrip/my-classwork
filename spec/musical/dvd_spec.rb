@@ -39,4 +39,4 @@ EOM
       let(:drutil_out) do
         <<"EOM"
  Vendor   Product           Rev
- MA
+ MATSHITA DVD-R   UJ-85
