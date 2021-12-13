@@ -41,4 +41,4 @@ EOM
  Vendor   Product           Rev
  MATSHITA DVD-R   UJ-85J    FM0S
 
-        
+           Type: DVD-ROM            
