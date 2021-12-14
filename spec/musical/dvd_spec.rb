@@ -42,4 +42,4 @@ EOM
  MATSHITA DVD-R   UJ-85J    FM0S
 
            Type: DVD-ROM              Name: /dev/disk3
-       Sess
+       Sessions: 1                  Tracks
