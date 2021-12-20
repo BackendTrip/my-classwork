@@ -43,4 +43,4 @@ EOM
 
            Type: DVD-ROM              Name: /dev/disk3
        Sessions: 1                  Tracks: 1
-   Overwritable:   00:00:00    
+   Overwritable:   00:00:00         blocks:        0 /   0
