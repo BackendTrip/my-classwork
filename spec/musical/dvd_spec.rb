@@ -45,4 +45,4 @@ EOM
        Sessions: 1                  Tracks: 1
    Overwritable:   00:00:00         blocks:        0 /   0.00MB /   0.00MiB
      Space Free:   00:00:00         blocks:        0 /   0.00MB /   0.00MiB
-     Space Used:  787:56:00      
+     Space Used:  787:56:00         blocks:  3545700 /   7
