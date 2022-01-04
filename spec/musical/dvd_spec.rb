@@ -46,4 +46,5 @@ EOM
    Overwritable:   00:00:00         blocks:        0 /   0.00MB /   0.00MiB
      Space Free:   00:00:00         blocks:        0 /   0.00MB /   0.00MiB
      Space Used:  787:56:00         blocks:  3545700 /   7.26GB /   6.76GiB
-  
+    Writability:
+      Book 
