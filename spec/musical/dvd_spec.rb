@@ -49,4 +49,6 @@ EOM
     Writability:
       Book Type: DVD-ROM (v1)
 EOM
-      
+      end
+      before do
+       
