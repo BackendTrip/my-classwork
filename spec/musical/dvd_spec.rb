@@ -51,4 +51,4 @@ EOM
 EOM
       end
       before do
-        expect(DVD).to receive(:exec
+        expect(DVD).to receive(:execute_command).with(drutil).an
