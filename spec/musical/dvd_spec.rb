@@ -52,4 +52,6 @@ EOM
       end
       before do
         expect(DVD).to receive(:execute_command).with(drutil).and_return(drutil_out)
-     
+      end
+
+      it { i
