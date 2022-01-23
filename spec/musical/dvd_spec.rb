@@ -54,4 +54,8 @@ EOM
         expect(DVD).to receive(:execute_command).with(drutil).and_return(drutil_out)
       end
 
-      it { is_expected.to eq('/de
+      it { is_expected.to eq('/dev/disk3') }
+    end
+  end
+
+  
