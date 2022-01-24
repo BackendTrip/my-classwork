@@ -58,4 +58,5 @@ EOM
     end
   end
 
-  
+  describe '.path' do
+    su
