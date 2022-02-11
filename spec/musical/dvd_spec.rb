@@ -60,4 +60,4 @@ EOM
 
   describe '.path' do
     subject { DVD.path }
-    co
+    context 'path class property is n
