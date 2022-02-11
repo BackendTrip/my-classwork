@@ -59,4 +59,5 @@ EOM
   end
 
   describe '.path' do
-    su
+    subject { DVD.path }
+    co
