@@ -62,4 +62,4 @@ EOM
     subject { DVD.path }
     context 'path class property is not set' do
       it 'returns nil' do
-        ex
+        expect(subject).to eq
