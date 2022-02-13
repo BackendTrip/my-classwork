@@ -61,4 +61,5 @@ EOM
   describe '.path' do
     subject { DVD.path }
     context 'path class property is not set' do
-      it 'retur
+      it 'returns nil' do
+        ex
