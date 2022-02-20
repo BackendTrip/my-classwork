@@ -66,4 +66,4 @@ EOM
       end
     end
 
-    context 'path
+    context 'path class property is set' 
