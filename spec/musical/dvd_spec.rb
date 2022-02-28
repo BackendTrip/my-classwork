@@ -67,4 +67,5 @@ EOM
     end
 
     context 'path class property is set' do
-      before{ DVD.path = '/
+      before{ DVD.path = '/dev/path' }
+      i
