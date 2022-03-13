@@ -69,4 +69,5 @@ EOM
     context 'path class property is set' do
       before{ DVD.path = '/dev/path' }
       it 'returns property value' do
-        expect(subject).t
+        expect(subject).to eq('/dev/path')
+      en
