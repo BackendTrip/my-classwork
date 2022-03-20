@@ -74,4 +74,5 @@ EOM
     end
   end
 
-  descr
+  describe '.load' do
+    before
