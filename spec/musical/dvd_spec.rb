@@ -70,4 +70,8 @@ EOM
       before{ DVD.path = '/dev/path' }
       it 'returns property value' do
         expect(subject).to eq('/dev/path')
-      en
+      end
+    end
+  end
+
+  descr
