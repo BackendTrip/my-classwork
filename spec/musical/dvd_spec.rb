@@ -76,3 +76,4 @@ EOM
 
   describe '.load' do
     before { DVD.path = nil }
+    before { expe
