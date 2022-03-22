@@ -76,4 +76,4 @@ EOM
 
   describe '.load' do
     before { DVD.path = nil }
-    before { expe
+    before { expect_any_instance_of(DVD
