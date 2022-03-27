@@ -76,4 +76,6 @@ EOM
 
   describe '.load' do
     before { DVD.path = nil }
-    before { expect_any_instance_of(DVD).to receive(:info).and_return(
+    before { expect_any_instance_of(DVD).to receive(:info).and_return('info data') }
+
+    context 'w
