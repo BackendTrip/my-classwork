@@ -81,4 +81,5 @@ EOM
     context 'when options are not given' do
       subject { DVD.load }
 
-  
+      context 'and if path is set' do
+ 
