@@ -79,4 +79,6 @@ EOM
     before { expect_any_instance_of(DVD).to receive(:info).and_return('info data') }
 
     context 'when options are not given' do
+      subject { DVD.load }
+
   
