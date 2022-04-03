@@ -82,4 +82,4 @@ EOM
       subject { DVD.load }
 
       context 'and if path is set' do
- 
+        before { DVD.pa
