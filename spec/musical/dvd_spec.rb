@@ -85,3 +85,6 @@ EOM
         before { DVD.path = '/dev/some/path' }
         it 'does not call DVD.detect' do
           expect(DVD).not_to receive(:detect)
+          subject
+        end
+      en
