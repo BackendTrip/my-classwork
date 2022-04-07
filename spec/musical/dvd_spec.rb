@@ -87,4 +87,6 @@ EOM
           expect(DVD).not_to receive(:detect)
           subject
         end
-      en
+      end
+
+      context 'and if DVD path 
