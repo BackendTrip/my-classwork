@@ -89,4 +89,5 @@ EOM
         end
       end
 
-      context 'and if DVD path 
+      context 'and if DVD path is not set' do
+        it 'set
