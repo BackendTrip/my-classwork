@@ -90,4 +90,5 @@ EOM
       end
 
       context 'and if DVD path is not set' do
-        it 'set
+        it 'sets path by DVD.detect' do
+     
