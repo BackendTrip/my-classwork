@@ -91,4 +91,4 @@ EOM
 
       context 'and if DVD path is not set' do
         it 'sets path by DVD.detect' do
-          expect(DVD).to receive(:detect).and_r
+          expect(DVD).to receive(:detect).and_return('/dev/some/path'
