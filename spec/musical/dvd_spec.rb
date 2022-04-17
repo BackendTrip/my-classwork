@@ -93,4 +93,6 @@ EOM
         it 'sets path by DVD.detect' do
           expect(DVD).to receive(:detect).and_return('/dev/some/path')
           subject
-          expect(DVD.path).to eq(
+          expect(DVD.path).to eq('/dev/some/path')
+        end
+      e
