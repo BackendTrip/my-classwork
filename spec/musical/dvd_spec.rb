@@ -98,4 +98,4 @@ EOM
       end
     end
 
-    context
+    context 'when options are given'
