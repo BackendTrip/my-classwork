@@ -95,4 +95,7 @@ EOM
           subject
           expect(DVD.path).to eq('/dev/some/path')
         end
-      e
+      end
+    end
+
+    context
