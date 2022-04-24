@@ -100,4 +100,5 @@ EOM
 
     context 'when options are given' do
       subject { DVD.load(options) }
-      context 'and if option does not have 
+      context 'and if option does not have `forcibly` key' do
+  
