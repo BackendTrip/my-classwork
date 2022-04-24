@@ -98,4 +98,5 @@ EOM
       end
     end
 
-    context 'when options are given'
+    context 'when options are given' do
+      subject { DVD.load
