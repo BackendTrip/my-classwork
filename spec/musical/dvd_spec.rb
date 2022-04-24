@@ -100,4 +100,4 @@ EOM
 
     context 'when options are given' do
       subject { DVD.load(options) }
-      context '
+      context 'and if option does not have 
