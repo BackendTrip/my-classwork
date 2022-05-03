@@ -101,4 +101,6 @@ EOM
     context 'when options are given' do
       subject { DVD.load(options) }
       context 'and if option does not have `forcibly` key' do
-        let(:options) { { path: '/dev/path', title: 's
+        let(:options) { { path: '/dev/path', title: 'some title' } }
+
+        it 
