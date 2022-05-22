@@ -103,4 +103,4 @@ EOM
       context 'and if option does not have `forcibly` key' do
         let(:options) { { path: '/dev/path', title: 'some title' } }
 
-        it 
+        it 'sets path by given opt
