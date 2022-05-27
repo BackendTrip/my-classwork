@@ -105,4 +105,5 @@ EOM
 
         it 'sets path by given option' do
           subject
-          expect(DVD.pa
+          expect(DVD.path).to eq('/dev/path')
+   
