@@ -109,4 +109,5 @@ EOM
         end
 
         it 'sets title by given option' do
-          subj
+          subject
+          expect(DVD.
