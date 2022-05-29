@@ -110,4 +110,4 @@ EOM
 
         it 'sets title by given option' do
           subject
-          expect(DVD.
+          expect(DVD.instance.title).t
