@@ -108,4 +108,5 @@ EOM
           expect(DVD.path).to eq('/dev/path')
         end
 
-        it 'sets title b
+        it 'sets title by given option' do
+          subj
