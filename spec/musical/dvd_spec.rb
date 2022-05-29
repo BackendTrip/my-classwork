@@ -106,4 +106,6 @@ EOM
         it 'sets path by given option' do
           subject
           expect(DVD.path).to eq('/dev/path')
-   
+        end
+
+        it 'sets title b
