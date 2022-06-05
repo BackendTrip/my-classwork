@@ -114,4 +114,5 @@ EOM
         end
       end
 
-      context 'and if option has `forcibly` ke
+      context 'and if option has `forcibly` key' do
+        let(:op
