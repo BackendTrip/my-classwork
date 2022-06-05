@@ -114,3 +114,4 @@ EOM
         end
       end
 
+      context 'and if
