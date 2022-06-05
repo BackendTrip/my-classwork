@@ -111,4 +111,6 @@ EOM
         it 'sets title by given option' do
           subject
           expect(DVD.instance.title).to eq('some title')
-     
+        end
+      end
+
