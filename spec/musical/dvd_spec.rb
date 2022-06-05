@@ -114,4 +114,4 @@ EOM
         end
       end
 
-      context 'and if
+      context 'and if option has `forcibly` ke
