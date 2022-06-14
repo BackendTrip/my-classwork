@@ -115,4 +115,5 @@ EOM
       end
 
       context 'and if option has `forcibly` key' do
-        let(:options) { { forcibly: true }
+        let(:options) { { forcibly: true } }
+        before 
