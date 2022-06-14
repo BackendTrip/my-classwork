@@ -116,4 +116,4 @@ EOM
 
       context 'and if option has `forcibly` key' do
         let(:options) { { forcibly: true } }
-        before 
+        before { DVD.path = '/dev/some/pa
