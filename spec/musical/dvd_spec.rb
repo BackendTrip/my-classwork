@@ -118,4 +118,5 @@ EOM
         let(:options) { { forcibly: true } }
         before { DVD.path = '/dev/some/path' }
 
-        it 'calls DVD.detect forcibly even if path is alread
+        it 'calls DVD.detect forcibly even if path is already set' do
+          expec
