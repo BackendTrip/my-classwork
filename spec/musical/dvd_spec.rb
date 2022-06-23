@@ -119,4 +119,4 @@ EOM
         before { DVD.path = '/dev/some/path' }
 
         it 'calls DVD.detect forcibly even if path is already set' do
-          expec
+          expect(DVD).to receive(:dete
