@@ -125,4 +125,4 @@ EOM
       end
     end
 
-  
+    context 'when block is
