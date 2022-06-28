@@ -125,4 +125,5 @@ EOM
       end
     end
 
-    context 'when block is
+    context 'when block is given' do
+      subjec
