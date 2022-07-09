@@ -126,4 +126,4 @@ EOM
     end
 
     context 'when block is given' do
-      subjec
+      subject { DVD.load { |dvd|
