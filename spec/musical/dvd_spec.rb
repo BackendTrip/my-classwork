@@ -126,4 +126,5 @@ EOM
     end
 
     context 'when block is given' do
-      subject { DVD.load { |dvd| dvd.artist = 'some artist' } 
+      subject { DVD.load { |dvd| dvd.artist = 'some artist' }  }
+      before { expect(DV
