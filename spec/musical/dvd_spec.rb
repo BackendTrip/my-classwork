@@ -127,4 +127,5 @@ EOM
 
     context 'when block is given' do
       subject { DVD.load { |dvd| dvd.artist = 'some artist' }  }
-      before { expect(DVD).to receive(:detect).an
+      before { expect(DVD).to receive(:detect).and_return('/dev/path') }
+   
