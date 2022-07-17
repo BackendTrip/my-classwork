@@ -128,4 +128,6 @@ EOM
     context 'when block is given' do
       subject { DVD.load { |dvd| dvd.artist = 'some artist' }  }
       before { expect(DVD).to receive(:detect).and_return('/dev/path') }
-      it 'calls proc object' 
+      it 'calls proc object' do
+        subject
+ 
