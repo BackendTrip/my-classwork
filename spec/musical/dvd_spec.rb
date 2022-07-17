@@ -130,4 +130,4 @@ EOM
       before { expect(DVD).to receive(:detect).and_return('/dev/path') }
       it 'calls proc object' do
         subject
- 
+        expect(DVD.instance.ar
