@@ -131,3 +131,8 @@ EOM
       it 'calls proc object' do
         subject
         expect(DVD.instance.artist).to eq('some artist')
+      end
+    end
+  end
+
+  descr
