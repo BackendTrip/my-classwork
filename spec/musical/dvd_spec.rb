@@ -136,4 +136,5 @@ EOM
   end
 
   describe '#info' do
-    sub
+    subject { dvd.info }
+  
