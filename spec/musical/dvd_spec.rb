@@ -135,4 +135,5 @@ EOM
     end
   end
 
-  descr
+  describe '#info' do
+    sub
