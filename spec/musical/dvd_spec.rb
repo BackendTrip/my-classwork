@@ -139,4 +139,4 @@ EOM
     subject { dvd.info }
     let(:dvd) { DVD.instance }
 
-    context 
+    context 'when DVD.path is not set' do
