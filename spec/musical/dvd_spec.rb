@@ -137,4 +137,6 @@ EOM
 
   describe '#info' do
     subject { dvd.info }
-    let(:dvd) { DVD.instanc
+    let(:dvd) { DVD.instance }
+
+    context 
