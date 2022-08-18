@@ -140,4 +140,5 @@ EOM
     let(:dvd) { DVD.instance }
 
     context 'when DVD.path is not set' do
-      before { DVD.path = ni
+      before { DVD.path = nil }
+      it 'raises an Runti
