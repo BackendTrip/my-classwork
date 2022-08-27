@@ -144,3 +144,6 @@ EOM
       it 'raises an RuntimeError' do
         expect { subject }.to raise_error(RuntimeError)
       end
+    end
+
+    context 'when DVD.pat
