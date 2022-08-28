@@ -147,4 +147,4 @@ EOM
     end
 
     context 'when DVD.path is set' do
-      before 
+      before { DVD.path = '/dev/pat
