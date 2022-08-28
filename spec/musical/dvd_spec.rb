@@ -147,4 +147,5 @@ EOM
     end
 
     context 'when DVD.path is set' do
-      before { DVD.path = '/dev/pat
+      before { DVD.path = '/dev/path' }
+      let(:info_da
