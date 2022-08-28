@@ -146,4 +146,5 @@ EOM
       end
     end
 
-    context 'when DVD.pat
+    context 'when DVD.path is set' do
+      before 
