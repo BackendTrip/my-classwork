@@ -150,3 +150,4 @@ EOM
       before { DVD.path = '/dev/path' }
       let(:info_data) { 'dvd data' }
       it 'returns DVD disk data' do
+        expect(dvd).to receiv
