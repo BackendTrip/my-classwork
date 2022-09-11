@@ -150,4 +150,5 @@ EOM
       before { DVD.path = '/dev/path' }
       let(:info_data) { 'dvd data' }
       it 'returns DVD disk data' do
-        expect(dvd).to receive(:execute_command).with("dvdbackup --info --input='/dev/path'", true).and_
+        expect(dvd).to receive(:execute_command).with("dvdbackup --info --input='/dev/path'", true).and_return(info_data)
+        
