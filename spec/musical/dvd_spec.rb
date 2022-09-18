@@ -156,4 +156,5 @@ EOM
     end
   end
 
-  describe '#ti
+  describe '#title_sets' do
+    subject 
