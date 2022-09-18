@@ -152,4 +152,8 @@ EOM
       it 'returns DVD disk data' do
         expect(dvd).to receive(:execute_command).with("dvdbackup --info --input='/dev/path'", true).and_return(info_data)
         expect(subject).to eq(info_data)
-   
+      end
+    end
+  end
+
+  describe '#ti
