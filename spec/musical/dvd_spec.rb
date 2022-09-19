@@ -157,4 +157,5 @@ EOM
   end
 
   describe '#title_sets' do
-    subject 
+    subject { dvd.title_sets }
+    let
