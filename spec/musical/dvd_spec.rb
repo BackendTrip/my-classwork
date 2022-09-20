@@ -158,4 +158,6 @@ EOM
 
   describe '#title_sets' do
     subject { dvd.title_sets }
-    let
+    let(:info) do
+      <<"EOM"
+Ti
