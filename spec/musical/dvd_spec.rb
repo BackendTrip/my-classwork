@@ -160,4 +160,6 @@ EOM
     subject { dvd.title_sets }
     let(:info) do
       <<"EOM"
-Ti
+Title Sets:
+
+        Title se
