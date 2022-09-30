@@ -163,4 +163,5 @@ EOM
 Title Sets:
 
         Title set 1
-                The aspect ratio of title set 1 i
+                The aspect ratio of title set 1 is 16:9
+         
