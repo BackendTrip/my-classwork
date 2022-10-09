@@ -166,4 +166,6 @@ Title Sets:
                 The aspect ratio of title set 1 is 16:9
                 Title set 1 has 1 angle
                 Title set 1 has 1 audio track
-                Title set 1 has
+                Title set 1 has 0 subpicture channels
+
+               
