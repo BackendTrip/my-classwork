@@ -170,4 +170,5 @@ Title Sets:
 
                 Title included in title set 1 is
                         Title 1:
-                                Title 1 has 15 c
+                                Title 1 has 15 chapters
+                   
