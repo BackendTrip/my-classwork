@@ -172,4 +172,6 @@ Title Sets:
                         Title 1:
                                 Title 1 has 15 chapters
                                 Title 1 has 2 audio channels
-EO
+EOM
+    end
+    let(:dvd) { DVD
