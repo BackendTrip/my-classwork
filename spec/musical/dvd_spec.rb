@@ -174,4 +174,6 @@ Title Sets:
                                 Title 1 has 2 audio channels
 EOM
     end
-    let(:dvd) { DVD
+    let(:dvd) { DVD.instance }
+
+  
