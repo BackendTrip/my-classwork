@@ -176,4 +176,4 @@ EOM
     end
     let(:dvd) { DVD.instance }
 
-  
+    before { expect(dvd).to 
