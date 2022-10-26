@@ -176,4 +176,6 @@ EOM
     end
     let(:dvd) { DVD.instance }
 
-    before { expect(dvd).to receive(:info).and_return(in
+    before { expect(dvd).to receive(:info).and_return(info) }
+
+    it 'returns each pair of
