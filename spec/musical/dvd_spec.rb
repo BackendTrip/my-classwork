@@ -178,4 +178,4 @@ EOM
 
     before { expect(dvd).to receive(:info).and_return(info) }
 
-    it 'returns each pair of
+    it 'returns each pair of title and chapter data' d
