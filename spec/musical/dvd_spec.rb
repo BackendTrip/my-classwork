@@ -182,3 +182,4 @@ EOM
       expect(subject).to be_an Array
       expect(subject.size).to eq(1)
       expect(subject.first[:title]).to eq(1)
+      expect(subject
