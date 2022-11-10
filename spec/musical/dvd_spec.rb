@@ -181,4 +181,4 @@ EOM
     it 'returns each pair of title and chapter data' do
       expect(subject).to be_an Array
       expect(subject.size).to eq(1)
-      expect(su
+      expect(subject.first[:title]).to eq(1)
