@@ -186,4 +186,5 @@ EOM
     end
   end
 
-  descri
+  describe '#rip' do
+    subje
