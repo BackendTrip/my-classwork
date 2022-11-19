@@ -187,4 +187,5 @@ EOM
   end
 
   describe '#rip' do
-    subje
+    subject { dvd.rip }
+    l
