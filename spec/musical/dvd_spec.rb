@@ -188,4 +188,6 @@ EOM
 
   describe '#rip' do
     subject { dvd.rip }
-    l
+    let(:dvd) { DVD.instance }
+
+ 
