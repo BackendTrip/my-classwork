@@ -190,4 +190,4 @@ EOM
     subject { dvd.rip }
     let(:dvd) { DVD.instance }
 
- 
+    context 'when DVD.p
