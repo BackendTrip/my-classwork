@@ -190,4 +190,5 @@ EOM
     subject { dvd.rip }
     let(:dvd) { DVD.instance }
 
-    context 'when DVD.p
+    context 'when DVD.path if not set' do
+ 
