@@ -191,4 +191,4 @@ EOM
     let(:dvd) { DVD.instance }
 
     context 'when DVD.path if not set' do
- 
+      before { 
