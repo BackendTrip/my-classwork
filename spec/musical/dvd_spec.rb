@@ -193,4 +193,4 @@ EOM
     context 'when DVD.path if not set' do
       before { DVD.path = nil }
       it 'raises an RuntimeError' do
-        expect { subject }.to r
+        expect { subject }.to raise_error(RuntimeError)
