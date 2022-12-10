@@ -197,4 +197,4 @@ EOM
       end
     end
 
-    con
+    context 'when DVD.path is set' do
