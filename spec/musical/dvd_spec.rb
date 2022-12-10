@@ -198,4 +198,6 @@ EOM
     end
 
     context 'when DVD.path is set' do
-      before { DVD.path = '/d
+      before { DVD.path = '/dev/path' }
+
+      let(:config
