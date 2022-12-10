@@ -198,3 +198,4 @@ EOM
     end
 
     context 'when DVD.path is set' do
+      before { DVD.path = '/d
