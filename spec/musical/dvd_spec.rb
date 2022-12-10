@@ -194,3 +194,7 @@ EOM
       before { DVD.path = nil }
       it 'raises an RuntimeError' do
         expect { subject }.to raise_error(RuntimeError)
+      end
+    end
+
+    con
