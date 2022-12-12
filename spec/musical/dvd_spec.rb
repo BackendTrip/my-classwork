@@ -200,4 +200,5 @@ EOM
     context 'when DVD.path is set' do
       before { DVD.path = '/dev/path' }
 
-      let(:configuration) { OpenStruct.new(output: '/tmp/out', wo
+      let(:configuration) { OpenStruct.new(output: '/tmp/out', working_dir: '/tmp/working') }
+      l
