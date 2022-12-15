@@ -201,4 +201,4 @@ EOM
       before { DVD.path = '/dev/path' }
 
       let(:configuration) { OpenStruct.new(output: '/tmp/out', working_dir: '/tmp/working') }
-      let(:title_sets) { [{ title: 1
+      let(:title_sets) { [{ title: 1, chapter: 3 }, { title: 2, cha
