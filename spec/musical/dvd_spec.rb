@@ -202,4 +202,4 @@ EOM
 
       let(:configuration) { OpenStruct.new(output: '/tmp/out', working_dir: '/tmp/working') }
       let(:title_sets) { [{ title: 1, chapter: 3 }, { title: 2, chapter: 4 }] }
-      let(:vob_p
+      let(:vob_path) { '/tmp/working/foo.v
