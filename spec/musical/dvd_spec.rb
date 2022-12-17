@@ -204,4 +204,5 @@ EOM
       let(:title_sets) { [{ title: 1, chapter: 3 }, { title: 2, chapter: 4 }] }
       let(:vob_path) { '/tmp/working/foo.vob' }
 
-      def stub_metho
+      def stub_methods
+        expect(Musica
