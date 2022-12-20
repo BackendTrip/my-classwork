@@ -205,4 +205,4 @@ EOM
       let(:vob_path) { '/tmp/working/foo.vob' }
 
       def stub_methods
-        expect(Musica
+        expect(Musical).to receive(:configuration
