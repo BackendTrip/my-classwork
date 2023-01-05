@@ -207,4 +207,5 @@ EOM
       def stub_methods
         expect(Musical).to receive(:configuration).at_least(1).times.and_return(configuration)
         expect(dvd).to receive(:title_sets).at_least(1).and_return(title_sets)
-        expect(dvd).to receive(:execute_command).at_least(1).with(/dvdbackup (.)*/, true) { FileUtil
+        expect(dvd).to receive(:execute_command).at_least(1).with(/dvdbackup (.)*/, true) { FileUtils.touch(vob_path) }
+     
