@@ -208,4 +208,4 @@ EOM
         expect(Musical).to receive(:configuration).at_least(1).times.and_return(configuration)
         expect(dvd).to receive(:title_sets).at_least(1).and_return(title_sets)
         expect(dvd).to receive(:execute_command).at_least(1).with(/dvdbackup (.)*/, true) { FileUtils.touch(vob_path) }
-        expect(dvd).to receive(:execute_c
+        expect(dvd).to receive(:execute_command).at_least(1).with(/f
