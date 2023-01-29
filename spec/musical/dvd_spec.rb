@@ -213,4 +213,5 @@ EOM
 
       before do
         FileUtils.mkdir_p(configuration.output)
-        FileUtils.mkdir_p(configur
+        FileUtils.mkdir_p(configuration.working_dir)
+        stub_me
