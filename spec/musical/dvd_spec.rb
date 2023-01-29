@@ -212,4 +212,4 @@ EOM
       end
 
       before do
-        FileUtils.mkdi
+        FileUtils.mkdir_p(configuration.output)
