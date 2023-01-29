@@ -213,3 +213,4 @@ EOM
 
       before do
         FileUtils.mkdir_p(configuration.output)
+        FileUtils.mkdir_p(configur
