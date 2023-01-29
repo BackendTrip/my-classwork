@@ -212,3 +212,4 @@ EOM
       end
 
       before do
+        FileUtils.mkdi
