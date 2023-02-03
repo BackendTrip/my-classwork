@@ -218,4 +218,5 @@ EOM
       end
 
       after do
-        FileUtils.rm_rf(con
+        FileUtils.rm_rf(configuration.working_dir)
+   
