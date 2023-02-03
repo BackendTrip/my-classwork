@@ -217,4 +217,5 @@ EOM
         stub_methods
       end
 
-      afte
+      after do
+        FileUtils.rm_rf(con
