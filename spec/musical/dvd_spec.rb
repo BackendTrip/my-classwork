@@ -219,4 +219,5 @@ EOM
 
       after do
         FileUtils.rm_rf(configuration.working_dir)
-        FileUtils.rm_rf(configura
+        FileUtils.rm_rf(configuration.output)
+      en
