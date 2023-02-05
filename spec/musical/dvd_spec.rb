@@ -220,4 +220,6 @@ EOM
       after do
         FileUtils.rm_rf(configuration.working_dir)
         FileUtils.rm_rf(configuration.output)
-      en
+      end
+
+      it 'returns an
