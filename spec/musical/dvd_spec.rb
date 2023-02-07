@@ -222,4 +222,4 @@ EOM
         FileUtils.rm_rf(configuration.output)
       end
 
-      it 'returns an
+      it 'returns an array of all chapters', 
