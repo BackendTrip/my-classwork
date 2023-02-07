@@ -223,4 +223,4 @@ EOM
       end
 
       it 'returns an array of all chapters', fakefs: true do
-   
+        expect(subject).to 
