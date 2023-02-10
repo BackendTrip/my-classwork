@@ -224,4 +224,6 @@ EOM
 
       it 'returns an array of all chapters', fakefs: true do
         expect(subject).to be_an Array
-        expect(subject.size
+        expect(subject.size).to eq(7)
+      end
+ 
