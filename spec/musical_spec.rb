@@ -22,3 +22,32 @@ describe Musical do
       before { stub_const('ARGV', ['--ignore-use-itunes']) }
       it { expect(setup.ignore_use_itunes).to be_truthy }
     end
+
+    context 'when argument `path` is given' do
+      before { stub_const('ARGV', ['--path=/dev/foo']) }
+      it { expect(setup.path).to eq('/dev/foo') }
+    end
+
+    context 'when argument `title` is given' do
+      before { stub_const('ARGV', ['--title=new!']) }
+      it { expect(setup.title).to eq("new!") }
+    end
+
+    context 'when argument `artist` is given' do
+      before { stub_const('ARGV', ['--artist=artist!']) }
+      it { expect(setup.artist).to eq("artist!") }
+    end
+
+    context 'when argument `year` is given' do
+      before { stub_const('ARGV', ['--year=2000']) }
+      it { expect(setup.year).to eq(2000) }
+    end
+
+    context 'when argument `output` is given' do
+      before { stub_const('ARGV', ['--output=/tmp']) }
+      it { expect(setup.output).to eq('/tmp') }
+    end
+  end
+
+  describe '#configuration' do
+    subject { Musical.configuration }
