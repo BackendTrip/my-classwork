@@ -10,3 +10,5 @@ describe Musical::Notification::ProgressBar do
     it 'returns unfinished ProgressBar' do
       expect(progress_bar.finished?).to be_falsey
     end
+  end
+end
