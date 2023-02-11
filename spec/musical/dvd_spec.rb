@@ -226,4 +226,6 @@ EOM
         expect(subject).to be_an Array
         expect(subject.size).to eq(7)
       end
- 
+    end
+  end
+end
