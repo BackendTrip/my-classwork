@@ -1,3 +1,4 @@
 # coding: utf-8
 
-requ
+require 'bundler'
+requir
