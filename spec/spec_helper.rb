@@ -2,4 +2,5 @@
 
 require 'bundler'
 require 'fakefs/spec_helpers'
-re
+require 'simplecov'
+require 
