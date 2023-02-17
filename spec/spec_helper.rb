@@ -1,4 +1,5 @@
 # coding: utf-8
 
 require 'bundler'
-requir
+require 'fakefs/spec_helpers'
+re
