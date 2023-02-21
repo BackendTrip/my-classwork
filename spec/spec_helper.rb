@@ -5,4 +5,6 @@ require 'fakefs/spec_helpers'
 require 'simplecov'
 require 'coveralls'
 
-Bundler.setup(:
+Bundler.setup(:default, :development)
+
+R
