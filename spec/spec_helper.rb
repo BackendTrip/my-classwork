@@ -3,4 +3,6 @@
 require 'bundler'
 require 'fakefs/spec_helpers'
 require 'simplecov'
-require 
+require 'coveralls'
+
+Bundler.setup(:
