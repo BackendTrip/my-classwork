@@ -7,4 +7,5 @@ require 'coveralls'
 
 Bundler.setup(:default, :development)
 
-R
+RSpec.configure do |config|
+  confi
