@@ -8,4 +8,5 @@ require 'coveralls'
 Bundler.setup(:default, :development)
 
 RSpec.configure do |config|
-  confi
+  config.color = true
+  config.tty = true
