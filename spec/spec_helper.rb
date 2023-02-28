@@ -11,4 +11,4 @@ RSpec.configure do |config|
   config.color = true
   config.tty = true
   #config.formatter = :documentation
-  config.incl
+  config.include FakeFS::SpecHelpers, 
