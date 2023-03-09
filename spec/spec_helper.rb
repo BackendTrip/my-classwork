@@ -14,4 +14,5 @@ RSpec.configure do |config|
   config.include FakeFS::SpecHelpers, fakefs: true
 end
 
-SimpleCov.formatter = SimpleCov::Formatter::
+SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
+  SimpleC
