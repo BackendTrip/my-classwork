@@ -15,4 +15,5 @@ RSpec.configure do |config|
 end
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
-  SimpleCov::Formatter::HTMLFormatt
+  SimpleCov::Formatter::HTMLFormatter,
+  Coveralls::Sim
