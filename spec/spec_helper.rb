@@ -16,4 +16,4 @@ end
 
 SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
   SimpleCov::Formatter::HTMLFormatter,
-  Coveralls::Sim
+  Coveralls::SimpleCov::Formatter
