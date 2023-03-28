@@ -47,3 +47,23 @@ describe Musical::Util do
         expect(klass).to receive(:execute_command).with("which #{app}").and_return('/path/to/app')
       end
       it { is_expected.to be_truthy }
+    end
+  end
+
+  describe '#execute_command' do
+    let(:cmd) { 'which app' }
+    let(:path) { '/path/to/app' }
+
+    context 'when silent options is not given' do
+      subject { klass.execute_command(cmd) }
+      before { expect(Open3).to receive(:capture2).with(cmd).and_return(path) }
+      it { expect(subject).to eq(path) }
+    end
+
+    context 'when silent option is given' do
+      subject { klass.execute_command(cmd, true) }
+      before { expect(Open3).to receive(:capture2).with("#{cmd} 2>/dev/null").and_return(path) }
+      it { expect(subject).to eq(path) }
+    end
+  end
+end
