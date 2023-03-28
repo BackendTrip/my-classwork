@@ -23,3 +23,27 @@ describe Musical::Util do
     end
 
     context 'when app is installed' do
+      before do
+        expect(klass).to receive(:installed?).twice.and_return(true)
+      end
+
+      it { is_expected.to be_truthy }
+    end
+  end
+
+  describe 'installed?' do
+    subject { klass.installed?(app)  }
+    let(:app) { 'dvdbackup' }
+
+    context 'when app is not installed' do
+      before do
+        expect(klass).to receive(:execute_command).with("which #{app}").and_return('')
+      end
+      it { is_expected.to be_falsey }
+    end
+
+    context 'when spp is installed' do
+      before do
+        expect(klass).to receive(:execute_command).with("which #{app}").and_return('/path/to/app')
+      end
+      it { is_expected.to be_truthy }
